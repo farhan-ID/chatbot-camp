@@ -12,5 +12,4 @@ packages = [{include = "app"}, {include = "src"}]
 
 [tool.poetry.dependencies]
 streamlit = ">=1.51.0"
-xlsxwriter = ">=3.2.9"
 google-genai = ">=1.51.0"
