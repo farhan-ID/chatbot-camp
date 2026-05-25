@@ -5,12 +5,12 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry]
 name = "chatbot-camp"
 version = "0.1.0"
-python = "^3.11"
 description = "Add your description here"
 authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 packages = [{include = "app"}, {include = "src"}]
 
 [tool.poetry.dependencies]
+python = "^3.11"
 streamlit = ">=1.51.0"
 google-genai = ">=1.51.0"
