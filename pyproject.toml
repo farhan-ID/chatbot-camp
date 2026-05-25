@@ -1,11 +1,16 @@
-[project]
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
 name = "chatbot-camp"
 version = "0.1.0"
 description = "Add your description here"
+authors = ["Your Name <you@example.com>"]
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = [
-    "streamlit>=1.51.0",
-    "xlsxwriter>=3.2.9",
-    "google-genai>=1.51.0"
-]
+packages = [{include = "app"}, {include = "src"}]
+
+[tool.poetry.dependencies]
+streamlit = ">=1.51.0"
+xlsxwriter = ">=3.2.9"
+google-genai = ">=1.51.0"
