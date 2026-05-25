@@ -8,8 +8,8 @@ version = "0.1.0"
 description = "Add your description here"
 authors = ["Your Name <you@example.com>"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
-python = "^3.10"
 streamlit = ">=1.51.0"
 google-genai = ">=1.51.0"
